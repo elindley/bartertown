@@ -1,36 +1,9 @@
 <?php 
-include'header.php';
-include'db.php';
-
-$body = $_POST['body'];
-$email = $_POST['email'];
-$title = $_POST['title'];
-/*
-$sql = "INSERT INTO ads SET body='$body',
-		INSERT INTO ads SET title='$title',
-		INSERT INTO users SET email='$email',
-		SELECT users.id FROM users INNER JOIN 
-		;";
-
-*/
-		
-$result = @mysql_query($sql);
-
-if($result) {
-	echo('<h2 class="success">Comment submitted</h2>');
-	} 
-	else {
-	// if it errors, send message
-	 echo('<h2 class="error">Oopsies! Comment not posted.</h2>');
-}
-
+include'inc/header.php';
+include'inc/db.php';
 ?>
 
-<form action="index.php" method="post" id="adsubmit">
-Email: <input type="text" name="email"><br>
-Title: <input type="text" name="title"><br>
-<textarea name="body" rows="5" cols="40"></textarea>
-<input type="submit" value="Submit">
-</form>
+<h1>Welcome to Bartertown!</h1>
+<a href="newad.php">Make a new ad</a>
 
-<?php include'footer.php'; ?>
+<?php include'inc/footer.php'; ?>
