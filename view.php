@@ -6,6 +6,11 @@ include 'inc/db.php';
 $query = "SELECT * FROM ads;";
 $result = @mysql_query("$query");
 while ($row = mysql_fetch_array($result)) {
-	echo($row['body'] . " " . $row['category_id'] . "<br>");
+
+	// create a link to ad.php with $_get argument id=ads.id
+	?>
+	<a href="ad.php?id=<?php echo($row['id']); ?>"><?php echo($row['title']); ?></a><br>
+	<?php
 }
+include 'inc/footer.php';
 ?>
