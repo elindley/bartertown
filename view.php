@@ -9,7 +9,9 @@ while ($row = mysql_fetch_array($result)) {
 
 	// create a link to ad.php with $_get argument id=ads.id
 	?>
-	<a href="ad.php?id=<?php echo($row['id']); ?>"><?php echo($row['title']); ?></a><br>
+	<div class="span4">
+		<a href="ad.php?id=<?php echo($row['id']); ?>"><?php echo($row['title']); ?></a><br>
+	</div>
 	<?php
 }
 include 'inc/footer.php';
