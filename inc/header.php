@@ -4,13 +4,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Welcome to Bartertown</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/bartertown/css/bootstrap.css" rel="stylesheet" media="screen"></head>
+    <link href="/bartertown/css/geo.css" rel="stylesheet" media="screen"></head>
 <body>
 	<div class="container">
 
 	<!-- banner -->
 	<div class="hero-unit">
-		<h1>Welcome to Bartertown!</h1>
+		<h1><blink><FONT COLOR="#00ffB4">W</FONT><FONT COLOR="#00ffff">E</FONT><FONT COLOR="#00B4ff">L</FONT><FONT COLOR="#005Aff">C</FONT><FONT COLOR="#0000ff">O</FONT><FONT COLOR="#4B00ff">M</FONT><FONT COLOR="#A500ff">E</FONT></blink> to Bartertown!</h1>
 	</div>
 
 	<!-- navigation -->
