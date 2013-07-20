@@ -1,15 +1,9 @@
 <?php 
 include'inc/header.php';
-include 'inc/db.php';
-
+include'inc/db.php';
 ?>
 
-
-<?php
-
-?>
-
-<!-- our form to create an ad-->
+<!--  form to create an ad-->
 <form action="create.php" method="post" id="adsubmit">
 	<select name ="category">
 		<?php 

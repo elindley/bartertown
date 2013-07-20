@@ -1,5 +1,4 @@
 <?php
-include 'inc/header.php';
 include 'inc/db.php';
 
 // display all ads and print their body and category id
@@ -14,5 +13,4 @@ while ($row = mysql_fetch_array($result)) {
 	</div>
 	<?php
 }
-include 'inc/footer.php';
 ?>
