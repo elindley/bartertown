@@ -224,14 +224,15 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+  color: #FF6F19;
+  /*background-color: #F2FF14;*/
+  background: url('../img/tweed.png');
 }
 
 a {
-  color: #0088cc;
+  color: #ae9577;
   text-decoration: none;
 }
 
@@ -6123,8 +6124,11 @@ a.badge:focus {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+  color: #FF1538;
+  background-color: #21BACC;
+  background: url('../img/bartertown2.jpg');
+  background-repeat:no-repeat;
+
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
