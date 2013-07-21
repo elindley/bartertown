@@ -16,8 +16,8 @@
 	<!-- navigation -->
 	<div class="row text-center">
 		<p class="span2"><a href="/bartertown/index.php">Home</a></p>
-		<p class="span2"><a href="/bartertown/views/cars.php">Cars</a></p>
-		<p class="span2"><a href="/bartertown/views/bikes.php">Bikes</a></p>
-		<p class="span2"><a href="/bartertown/views/trucks.php">Trucks</a></p>
-		<p class="span2"><a class="btn btn-primary" href="newad.php">Make a new ad</a>
+		<p class="span2"><a href="/bartertown/search.php?cat=2">Bikes</a></p>
+		<p class="span2"><a href="/bartertown/search.php?cat=3">Cars</a></p>
+		<p class="span2"><a href="/bartertown/search.php?cat=4">Trucks</a></p>
+		<p class="span2"><a class="btn btn-primary" href="/bartertown/newad.php">Make a new ad</a>
 	</div>

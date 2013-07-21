@@ -19,3 +19,7 @@ users should be able to search and read ads
 - anonymous email
 - extra fields for ads e.g. location or price
 
+
+TO DO
+- email user a hashed url to their ad
+- search bar for title and body
