@@ -24,4 +24,3 @@ include 'inc/db.php';
 <?php 
 include'inc/footer.php'; 
 ?>
-
