@@ -10,7 +10,6 @@ if (isset($_GET['cat'])){
 	$query .= " WHERE category_id=" . $_GET['cat'];
 }
 
-
 $result = @mysql_query("$query");
 ?>	<div class="row"><?php
 while ($row = mysql_fetch_array($result)) {

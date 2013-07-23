@@ -1,7 +1,6 @@
 <?php
 
 // we need the ad's id and hash to be able to edit 
-
 include'inc/db.php';
 include'inc/header.php';
 $hash = $_GET['hash'];
@@ -9,7 +8,6 @@ $query = "SELECT * FROM ads WHERE hash='$hash'";
 $result = mysql_query($query);
 $row = mysql_fetch_assoc($result);
 ?>
-
 <form action="update.php" method="post" id="adsubmit">
 	<!-- fill out invisible form with our hash to send to update.php when we submit this -->
 	<input type="hidden" name="hash" value="<?php echo $_GET['hash']; ?>"/>
@@ -28,8 +26,6 @@ $row = mysql_fetch_assoc($result);
 	<textarea name="body" rows="5" cols="40"><?php echo $row['body'] ?></textarea>
 	<input type="submit" value="Submit">
 </form>
-
-
 <?php 
 include'inc/footer.php'; 
 ?>
