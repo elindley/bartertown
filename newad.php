@@ -1,6 +1,6 @@
 <?php 
 include'inc/header.php';
-include'inc/db.php';
+include 'inc/db.php';
 ?>
 
 <!--  form to create an ad-->
@@ -14,7 +14,7 @@ include'inc/db.php';
 			}
 		?>
 	</select><br>
-
+	
 	Email: <input type="text" name="email"><br>
 	Title: <input type="text" name="title"><br>
 	<textarea name="body" rows="5" cols="40"></textarea>
@@ -24,3 +24,4 @@ include'inc/db.php';
 <?php 
 include'inc/footer.php'; 
 ?>
+

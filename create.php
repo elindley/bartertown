@@ -1,10 +1,10 @@
 <?php
 include 'inc/db.php';
 
-$body = $_POST['body'];
-$email = $_POST['email'];
-$title = $_POST['title'];
-$category = $_POST['category'];
+$body = mysql_real_escape_string($_POST['body']);
+$email = mysql_real_escape_string($_POST['email']);
+$title = mysql_real_escape_string($_POST['title']);
+$category = mysql_real_escape_string($_POST['category']);
 
 
 //post body, title, and email to database and associate user id with email
