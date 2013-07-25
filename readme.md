@@ -22,4 +22,3 @@ users should be able to search and read ads
 
 TO DO
 - email user a hashed url to edit their ad
-- search bar for title and body
