@@ -12,5 +12,6 @@ $hash = md5( rand(0, 1000));
 $sql = "INSERT INTO ads (body, title, category_id, hash) VALUES ('$body', '$title', '$category', '$hash');";
 mysql_query($sql);
 
-header('Location: index.php');
+header('Location: editlink.php?hash='.$hash);
+
 ?>
