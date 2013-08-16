@@ -7,6 +7,7 @@ $hash = $_GET['hash'];
 $query = "SELECT * FROM ads WHERE hash='$hash'";
 $result = mysql_query($query);
 $row = mysql_fetch_assoc($result);
+$id = $_GET['id'];
 ?>
 <form action="update.php" method="post" id="adsubmit">
 	<!-- fill out invisible form with our hash to send to update.php when we submit this -->

@@ -3,7 +3,7 @@ include 'inc/header.php';
 include 'inc/db.php';
 
 $id = $_GET['id'];
-$query = "SELECT * FROM ads WHERE id=" . $id;
+$query = "SELECT * FROM ads WHERE id=$id";
 $response = mysql_query($query);
 $ad = mysql_fetch_assoc($response);
 ?>

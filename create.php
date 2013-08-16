@@ -7,11 +7,11 @@ $title = mysql_real_escape_string($_POST['title']);
 $category = mysql_real_escape_string($_POST['category']);
 $hash = md5( rand(0, 1000));
 
-
 //post body, title, and email to database and associate user id with email
 $sql = "INSERT INTO ads (body, title, category_id, hash) VALUES ('$body', '$title', '$category', '$hash');";
 mysql_query($sql);
 
-header('Location: editlink.php?hash='.$hash);
+$id = mysql_insert_id();
+header('Location: editlink.php?hash='.$hash.'&id='.$id);
 
 ?>
